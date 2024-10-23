@@ -1,0 +1,98 @@
+:root {
+    --cor-principal: #146627; /* Verde */
+    --cor-botaoh: #1c3f25; /* Verde 2 */
+    --cor-botao: #1e7e34; /* Verde 3 */
+    --cor-destaque: #ffc107;   /* Amarelo */
+    --cor-fundo: #f4f4f4;      /* Cinza claro */
+    --cor-texto: #343A40;      /* Preto */
+}
+
+/* */
+
+header {
+    display:flexbox;
+    justify-content: space-evenly; /* Distribui o conteúdo */
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.Nome {
+    flex: 1; /* A logo ocupa uma parte flexível */
+
+}
+
+.menu {
+    flex: 2; /* O menu ocupa mais espaço */
+    text-align:center;
+}
+
+/* */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo)
+}
+
+header {
+    background: var(--cor-principal);
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.botao {
+    background-color: var(--cor-botao);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color:var(--cor-botaoh);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: var(--cor-principal);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+

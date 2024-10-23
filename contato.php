@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <a class="logo"><img src="assets\logoMusicando.png" alt="Logo Musicando" class="logo-img"></a>
         <div class="Nome">
             <h1>Contato</h1>
         </div>
@@ -15,9 +16,9 @@
         <div class="menu">
             <nav>
                 <ul>
-                    <li><button class="botao" onclick="scrollParaMenu()" ><a href="menu.html">Menu</a></button></li>
-                    <li><button class="botao" onclick="scrollParaJogos()"><a href="jogos.html">Jogos</a></button></li>
-                    <li><button class="botao" onclick="scrollParaSobre()"><a href="sobre.html">Sobre</a></button></li>
+                    <li><button class="botao" onclick="scrollParaMenu()" ><a href="menu.php">Menu</a></button></li>
+                    <li><button class="botao" onclick="scrollParaJogos()"><a href="jogos.php">Jogos</a></button></li>
+                    <li><button class="botao" onclick="scrollParaSobre()"><a href="sobre.php">Sobre</a></button></li>
                 </ul>
             </nav>
         </div>
@@ -50,4 +51,3 @@
     </script>
 </body>
 </html>
-

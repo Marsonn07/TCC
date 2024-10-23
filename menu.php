@@ -18,9 +18,9 @@
             
             <nav>
                 <ul>
-                    <li><button class="botao" onclick="scrollParaJogos()"><a href="jogos.html">Jogos</a></button></li>
-                    <li><button class="botao" onclick="scrollParaSobre()"><a href="sobre.html">Sobre</a></button></li>
-                    <li><button class="botao" onclick="scrollParaContato()"><a href="contato.html">Contato</a></button></li>
+                    <li><button class="botao" onclick="scrollParaJogos()"><a href="jogos.php">Jogos</a></button></li>
+                    <li><button class="botao" onclick="scrollParaSobre()"><a href="sobre.php">Sobre</a></button></li>
+                    <li><button class="botao" onclick="scrollParaContato()"><a href="contato.php">Contato</a></button></li>
                 </ul>
             </nav>
         </div>
@@ -29,17 +29,17 @@
     <main>
         
         <section id="Jogos">
-            <h2><a href="jogos.html">Jogos</a></h2>
+            <h2><a href="jogos.php">Jogos</a></h2>
             <p>...</p>
         </section>
 
         <section id="sobre">
-            <h2><a href="sobre.html">Sobre</a></h2>
+            <h2><a href="sobre.php">Sobre</a></h2>
             <p>...</p>
         </section>
         
         <section id="contato">
-            <h2><a href="contato.html">Contato</a></h2>
+            <h2><a href="contato.php">Contato</a></h2>
             <p>...</p>        
         </section>
     </main>
